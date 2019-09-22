@@ -1,0 +1,71 @@
+body {
+    font-family: 'Courier New';
+}
+
+#calculator {
+    background-color: #EDF4FC;
+    margin: 10% auto 0;
+    width: 300px;
+    height: 404px;
+    border: 1px solid #8E9CAD;
+    border-radius: 10px;
+}
+
+#title {
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#entrybox {
+    background-color: white;
+    margin: 0 auto;
+    height: 65px;
+    width: 85%;
+    border: 1px solid #8E9CAD;
+    border-radius: 8px;
+    text-align: right;
+}
+
+#history {
+    font-size: 13px;
+    margin: 3px 17px 0 0;
+    height: 15px;
+    /*display: block;*/
+}
+
+#entry {
+    font-size: 45px;
+    margin: 0 12px 0 0;
+    /*display: block;*/
+}
+
+#buttons {
+    margin: 15px 0 0 19px;
+}
+
+button {
+    margin: 0 6px 10px 3px;
+    height: 40px;
+    width: 50px;
+    border: 1px solid #8E9CAD;
+    /*border: 2px solid White;*/
+    border-radius: 8px;
+    /*background-color: #EDF4FC;*/
+    background-color: White;
+    font-weight: bold;
+    color: #1c3986;
+}
+
+.zero {
+    width: 117px;
+}
+
+#sign {
+    text-align: center;
+    margin: 5px 23px 0;
+    padding: 3px 0 0 0;
+    border-top: 1px solid #8E9CAD;
+    font-size: 11px;
+}
